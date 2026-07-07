@@ -172,7 +172,7 @@ def compare_players(p1_stats: dict, p2_stats: dict) -> str:
     
     # K/D Ratio
     kd_winner = p1_stats['nickname'] if p1_stats['kd_ratio'] > p2_stats['kd_ratio'] else p2_stats['nickname']
-    lines.append(f"⚔️ <b>K/D Ratio:</b> {p1_stats['nickname']} {p1_stats['kd_ratio']} vs {p2_stats['kd_ratio']} {p2_stats['nickname']}")
+    lines.append(f⚔️ <b>K/D Ratio:</b> {p1_stats['nickname']} {p1_stats['kd_ratio']} vs {p2_stats['kd_ratio']} {p2_stats['nickname']}")
     lines.append(f"   ➜ Лучше: <b>{kd_winner}</b>\n")
     
     # Headshot %
